@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (quantity ==0){
-                    quantityText.setText("0");
+                    quantityText.setText("Quantity");
                 }else{
                     quantity -=1;
                     quantityText.setText(quantity+"");

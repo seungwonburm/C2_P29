@@ -202,7 +202,7 @@
         android:layout_height="82dp"
         android:layout_marginTop="360dp"
         android:gravity="center"
-        android:text="0"
+        android:text="Quantity"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
