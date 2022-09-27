@@ -24,99 +24,105 @@
             android:orientation="vertical">
 
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/A"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#673AB7"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
-                android:shadowColor="#FBFBFB"
+                android:onClick="onCheckBoxClicked"
                 android:text="Apple (200 Cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/B"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="onCheckBoxClicked"
                 android:text="Banana (100 Cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/C"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="onCheckBoxClicked"
                 android:text="Cucumber (300 Cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/D"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="onCheckBoxClicked"
                 android:text="Dragonfruit (150 Cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/E"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="onCheckBoxClicked"
                 android:text="Eataly (400 cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/F"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="onCheckBoxClicked"
                 android:text="Flower (10 cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/G"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="onCheckBoxClicked"
                 android:text="Goat (200 cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/H"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="onCheckBoxClicked"
                 android:text="Horse (700 Cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/I"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="onCheckBoxClicked"
                 android:text="Ice Cream (35 Cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
-            <RadioButton
+            <CheckBox
                 android:id="@+id/J"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:onClick="onRadioButtonClicked"
+                android:onClick="onCheckBoxClicked"
                 android:text="Java (245 Cal)"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
 
 
         </LinearLayout>

@@ -5,12 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    RadioButton alpha, bravo, charlie, delta, echo, foxtrot, golf, hotel, india, juliet, kilo, lima, mike;
+    CheckBox alpha, bravo, charlie, delta, echo, foxtrot, golf, hotel, india, juliet;
     Button plus, minus, enter, clear;
     TextView totalText, quantityText;
     int calories[] = {200, 100, 300, 150, 400, 10, 200, 700, 35, 245, 700, 35, 245};
@@ -23,16 +24,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        alpha = (RadioButton)findViewById(R.id.A);
-        bravo = (RadioButton) findViewById(R.id.B);
-        charlie = (RadioButton) findViewById(R.id.C);
-        delta = (RadioButton) findViewById(R.id.D);
-        echo = (RadioButton) findViewById(R.id.E);
-        foxtrot = (RadioButton) findViewById(R.id.F);
-        golf = (RadioButton) findViewById(R.id.G);
-        hotel = (RadioButton) findViewById(R.id.H);
-        india = (RadioButton) findViewById(R.id.I);
-        juliet = (RadioButton) findViewById(R.id.J);
+        alpha = (CheckBox)findViewById(R.id.A);
+        bravo = (CheckBox) findViewById(R.id.B);
+        charlie = (CheckBox) findViewById(R.id.C);
+        delta = (CheckBox) findViewById(R.id.D);
+        echo = (CheckBox) findViewById(R.id.E);
+        foxtrot = (CheckBox) findViewById(R.id.F);
+        golf = (CheckBox) findViewById(R.id.G);
+        hotel = (CheckBox) findViewById(R.id.H);
+        india = (CheckBox) findViewById(R.id.I);
+        juliet = (CheckBox) findViewById(R.id.J);
 
         plus = (Button)findViewById(R.id.plus);
         minus = (Button)findViewById(R.id.minus);
@@ -123,8 +124,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onRadioButtonClicked(View view){
-        boolean checked = ((RadioButton) view).isChecked();
+    public void onCheckBoxClicked(View view){
+        boolean checked = ((CheckBox) view).isChecked();
         switch(view.getId()) {
             case R.id.A:
                 if (checked) {
