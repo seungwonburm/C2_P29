@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.RadioButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -131,22 +130,33 @@ public class MainActivity extends AppCompatActivity {
                 if (checked) {
                     flag[0]=true;
                 }
+                else {
+                    flag[0]=false;
+                }
                 break;
 
             case R.id.B:
                 if (checked) {
                     flag[1]=true;
                 }
+                else {
+                    flag[1]=false;
+                }
                 break;
             case R.id.C:
                 if (checked) {
                     flag[2]=true;
                 }
-
+                else {
+                    flag[2]=false;
+                }
                 break;
             case R.id.D:
                 if (checked) {
                     flag[3]=true;
+                }
+                else {
+                    flag[3]=false;
                 }
 
                 break;
@@ -154,23 +164,33 @@ public class MainActivity extends AppCompatActivity {
                 if (checked) {
                     flag[4]=true;
                 }
+                else {
+                    flag[4]=false;
+                }
 
                 break;
             case R.id.F:
                 if (checked) {
                     flag[5]=true;
                 }
-
+                else {
+                    flag[5]=false;
+                }
                 break;
             case R.id.G:
                 if (checked) {
                     flag[6]=true;
                 }
-
+                else {
+                    flag[6]=false;
+                }
                 break;
             case R.id.H:
                 if (checked) {
                     flag[7]=true;
+                }
+                else {
+                    flag[7]=false;
                 }
 
                 break;
@@ -178,11 +198,17 @@ public class MainActivity extends AppCompatActivity {
                 if (checked) {
                     flag[8]=true;
                 }
+                else {
+                    flag[8]=false;
+                }
 
                 break;
             case R.id.J:
                 if (checked) {
                     flag[9] = true;
+                }
+                else {
+                    flag[9]=false;
                 }
                 break;
 
