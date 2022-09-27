@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     CheckBox alpha, bravo, charlie, delta, echo, foxtrot, golf, hotel, india, juliet;
     Button plus, minus, enter, clear;
     TextView totalText, quantityText;
-    int calories[] = {200, 100, 300, 150, 400, 10, 200, 700, 35, 245, 700, 35, 245};
+    int calories[] = {200, 100, 300, 150, 400, 10, 200, 700, 35, 245};
     Boolean flag[] = new Boolean[calories.length];
     int total = 0, quantity=0, totalStore=0;
 
