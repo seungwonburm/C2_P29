@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
                 india.setChecked(false);
                 juliet.setChecked(false);
 
+                quantity = 0;
+                quantityText.setText("Quantity");
 
             }
         });
